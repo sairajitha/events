@@ -1,0 +1,101 @@
+@import "tailwindcss";
+/* @import '@fullcalendar/daygrid/main.css';
+@import '@fullcalendar/timegrid/main.css';
+@import "@fullcalendar/daygrid/main.css"; */
+
+:root {
+      /* Colors */
+      --color-primary-50: 240 244 255;
+      --color-primary-100: 224 233 255;
+      --color-primary-200: 199 215 254;
+      --color-primary-300: 165 187 252;
+      --color-primary-400: 129 150 248;
+      --color-primary-500: 99 102 241;
+      --color-primary-600: 79 70 229;
+      --color-primary-700: 67 56 202;
+      --color-primary-800: 55 48 163;
+      --color-primary-900: 49 46 129;
+      
+      --color-secondary-50: 253 244 255;
+      --color-secondary-100: 250 232 255;
+      --color-secondary-200: 245 208 254;
+      --color-secondary-300: 240 171 252;
+      --color-secondary-400: 232 121 249;
+      --color-secondary-500: 217 70 239;
+      --color-secondary-600: 192 38 211;
+      --color-secondary-700: 162 28 175;
+      --color-secondary-800: 134 25 143;
+      --color-secondary-900: 112 26 117;
+      
+      --color-tertiary-50: 236 253 245;
+      --color-tertiary-100: 209 250 229;
+      --color-tertiary-200: 167 243 208;
+      --color-tertiary-300: 110 231 183;
+      --color-tertiary-400: 52 211 153;
+      --color-tertiary-500: 16 185 129;
+      --color-tertiary-600: 5 150 105;
+      --color-tertiary-700: 4 120 87;
+      --color-tertiary-800: 6 95 70;
+      --color-tertiary-900: 6 78 59;
+      
+      --color-background-50: 250 250 250;
+      --color-background-100: 245 245 245;
+      --color-background-200: 229 229 229;
+      --color-background-300: 212 212 212;
+      --color-background-400: 163 163 163;
+      --color-background-500: 115 115 115;
+      --color-background-600: 82 82 82;
+      --color-background-700: 64 64 64;
+      --color-background-800: 38 38 38;
+      --color-background-900: 23 23 23;
+      
+      --color-neutral-50: 250 250 250;
+      --color-neutral-100: 244 244 245;
+      --color-neutral-200: 228 228 231;
+      --color-neutral-300: 212 212 216;
+      --color-neutral-400: 161 161 170;
+      --color-neutral-500: 113 113 122;
+      --color-neutral-600: 82 82 91;
+      --color-neutral-700: 63 63 70;
+      --color-neutral-800: 39 39 42;
+      --color-neutral-900: 24 24 27;
+      
+      /* Typography */
+      --font-heading-name: 'Playfair Display';
+      --font-body-name: 'Inter';
+      --font-heading: 'Playfair Display', serif;
+      --font-body: 'Inter', sans-serif;
+      --letter-spacing-heading: -0.5px;
+      --letter-spacing-body: 0px;
+      
+      /* Spacing */
+      --space-base: 1rem;
+      
+      /* Borders */
+      --radius-small: 8px;
+      --radius-large: 16px;
+      --border-width: 1px;
+      
+      /* Shadows */
+      --shadow-color: 0 0 0;
+      --shadow-offset-x: 0px;
+      --shadow-offset-y: 4px;
+      --shadow-blur: 12px;
+      --shadow-spread: 0px;
+      --shadow-opacity: 0.08;
+      --shadow-custom: 0px 4px 12px rgba(0, 0, 0, 0.08);
+      --shadow-custom-hover: 0px 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+  @keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease-out;
+}
